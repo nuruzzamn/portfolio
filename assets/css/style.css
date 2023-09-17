@@ -34,8 +34,17 @@ a:hover {
     color: var(--color-brand);
 }
 
-img {
+.card{
+    overflow: hidden;
+}
+
+.card img {
     width: 100%;
+    transition: all 1.3s ease;
+}
+
+.card:hover img{
+    transform: scale(1.15);
 }
 
 .text-brand {
