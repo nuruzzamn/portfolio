@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 
 :root {
-    --color-base2: #770909;
+    /* --color-base2: #770909; */
+    --color-base2: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)
+
      --color-body: #efeff0;
+     /* --color-body: #FFFFFF; */
+
     --color-heading: #fff;
     --color-base: #0f2a48;
-    --bs-link-color: #00FFFF;
+    /* --bs-link-color: #00FFFF; */
+    --bs-link-color: #FFFFFF;
     --color-base-dark: #f2bd20;
     --color-brand: #FAFA37;
     --color-brand2: #deff58;
@@ -14,8 +19,11 @@
 }
 
 body {
-    background-color: var(--color-base2);
-    color: var(--color-body);
+    /* background-color: var(--color-base2); */
+    /* background: rgb(2,0,36); */
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+    color: var(--color-heading);
     font-family: var(--font-base), sans-serif;
 }
 
@@ -92,7 +100,7 @@ a:hover {
 }
 
 .link a{
-    color: #00FFFF;
+    /* color: #00FFFF; */
 }
 
 /* NAVBAR */
@@ -239,6 +247,7 @@ a:hover {
 
 .blog-post{
     background-color: var(--color-body);
+    background: var(--color-heading);
 }
 
 .blog{
