@@ -19,8 +19,10 @@
 body {
     /* background-color: var(--color-base2); */
     /* background: rgb(2,0,36); */
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(2, 2, 100) 35%, rgb(1, 84, 100) 100%); */
+    /* background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); */
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    /* background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%); */
     color: var(--color-heading);
     font-family: var(--font-base), sans-serif;
 }
